@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
 """hist matching."""
@@ -9,11 +9,11 @@ import rospy
 import roslib
 # import imgsim
 
-TARGET_FILE = roslib.packages.get_pkg_dir('image_matching') + '/data/real_image/center1760.png'
+TARGET_FILE = roslib.packages.get_pkg_dir('image_matching') + '/data/00_02/center0_0.jpg'
 # IMG_DIR = os.path.abspath(os.path.dirname(__file__)) + '/images/'
 # REAL_IMG_DIR = roslib.packages.get_pkg_dir('image_matching') + '/data/real_image'
 # SIM_IMG_DIR = roslib.packages.get_pkg_dir('image_matching') + '/data/sim_image'
-IMG_DIR = roslib.packages.get_pkg_dir('image_matching') + '/data/sim_image/'
+IMG_DIR = roslib.packages.get_pkg_dir('image_matching') + '/data/9cam/'
 IMG_SIZE = (64, 48)
 
 # target_img_path = IMG_DIR + TARGET_FILE
